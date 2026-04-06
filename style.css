@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("./Images/backgroundImg.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.drum-kits-wrapper {
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 80vw; */
+  text-align: center;
+}
+
+.drum-kit {
+  /* width: 40px;
+  height: 30px; */
+  padding: 10px 25px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  margin-right: 8px;
+}
+
+span{
+    display: block;
+    font-size: 10px;
+}
+
