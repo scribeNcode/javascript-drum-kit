@@ -35,6 +35,29 @@ span {
   color: #907227;
 }
 
+/* Button animation */
+.playing {
+  animation: flash-pop 0.2s ease-out forwards;
+}
+
+@keyframes flash-pop {
+  0% {
+    transform: scale(1);
+    border-color: transparent;
+  }
+  50% {
+    transform: scale(1.2);
+    border-color: #ffff00;
+    font-size: 1.2em;
+    box-shadow: 0 0 15px #ffff00;
+  }
+  100% {
+    transform: scale(1.1);
+    border-color: #ffff00;
+    font-size: 1.1em;
+  }
+}
+
 /* Mobile view */
 @media screen and (max-width: 480px) {
   body {
@@ -67,11 +90,10 @@ span {
   }
 }
 
-
 /* Tablet view */
 
-@media screen and (min-width:481px) and (max-width: 768px) {
-      body {
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  body {
     background-image: url("./Images/backgroundImg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
