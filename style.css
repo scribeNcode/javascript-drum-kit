@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #1a1a1a;
   background-image: url("./Images/backgroundImg.jpg");
   background-size: cover;
   display: flex;
